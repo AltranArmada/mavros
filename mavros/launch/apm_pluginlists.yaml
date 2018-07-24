@@ -3,7 +3,7 @@ plugin_blacklist:
 - actuator_control
 - ftp
 - safety_area
-- setpoint_attitude
+# setpoint_attitude
 # extras
 - image_pub
 - 'mocap_*'
@@ -12,6 +12,7 @@ plugin_blacklist:
 - distance_sensor
 - vibration
 - altitude
+
 
 plugin_whitelist: []
 #- 'sys_*'
